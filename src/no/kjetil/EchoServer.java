@@ -24,7 +24,7 @@ public class EchoServer {
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
             System.err.println("Missing port argument");
-            System.err.println("usage: java no.kjetil.EchoServer 8080");
+            System.err.println("usage: java no.kjetil.EchoServer <port>");
             System.exit(1);
         }
         int port = Integer.parseInt(args[0]);
